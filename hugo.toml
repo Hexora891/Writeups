@@ -61,6 +61,8 @@ canonifyURLs = true
   [Languages.en-us.params.author]
     name = "Hexora"
     avatar = "avatar.jpg"
+    intro = "Hexora"
+    description = "CTF enthusiast and cybersecurity researcher"
 
 # Theme configuration
 [params]
