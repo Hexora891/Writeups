@@ -1,4 +1,59 @@
+title = "Hexora's CTF Writeups"
 baseURL = "https://hexora891.github.io/Writeups/"
 languageCode = "en-us"
-title = "Hexora's CTF Writeups"
+defaultContentLanguage = "en-us"
 theme = "hugo-blog-awesome"
+
+# Enable emojis globally
+enableEmoji = true
+ignoreErrors = ["additional-script-loading-error"]
+
+# Enable code highlighting
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+# English language configuration
+[Languages.en-us]
+  languageName = "English"
+  languageCode = "en-us"
+  contentDir = "content/en"
+  weight = 1
+
+  [Languages.en-us.menu]
+  [[Languages.en-us.menu.main]]
+    pageRef = "/"
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[Languages.en-us.menu.main]]
+    pageRef = "posts"
+    name = 'Posts'
+    url = '/posts/'
+    weight = 20
+  [[Languages.en-us.menu.main]]
+    pageRef = "about"
+    name = 'About'
+    url = '/about/'
+    weight = 30
+
+  [Languages.en-us.params]
+    sitename = "Hexora's CTF Writeups"
+    defaultColor = "auto"
+    description = "A collection of CTF writeups and cybersecurity insights"
+    mainSections = ['posts']
+    toc = true
+    tocOpen = false
+    goToTop = true
+    dateFormat = "2 Jan 2006"
+    rssFeedDescription = "summary"
+
+  [Languages.en-us.params.author]
+    name = "Hexora"
+    avatar = "avatar.jpg"

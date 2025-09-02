@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Hexora&#39;s CTF Writeups</title>
+    <link>http://localhost:1313/pages/</link>
+    <description>Recent content in Pages on Hexora&#39;s CTF Writeups</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pages/about/</guid>
+      
+      <description>&lt;p&gt;Hi, I&amp;rsquo;m Hexora! I&amp;rsquo;m passionate about cybersecurity and love participating in Capture The Flag (CTF) challenges.&lt;/p&gt;
+&lt;p&gt;This blog serves as a collection of my CTF writeups, where I document my solutions, thought processes, and lessons learned from various cybersecurity challenges. Whether you&amp;rsquo;re a beginner looking to learn or an experienced player seeking new perspectives, I hope these writeups prove helpful.&lt;/p&gt;
+&lt;h2 id=&#34;what-are-ctfs&#34;&gt;What are CTFs?&lt;/h2&gt;
+&lt;p&gt;Capture The Flag (CTF) competitions are cybersecurity challenges where participants solve various puzzles, reverse engineer software, analyze network traffic, exploit vulnerabilities, and more. They&amp;rsquo;re excellent ways to learn practical cybersecurity skills in a fun, competitive environment.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
