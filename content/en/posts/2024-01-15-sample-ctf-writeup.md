@@ -12,6 +12,8 @@ toc: true
 
 This is a sample CTF writeup to demonstrate how your blog will look. The challenge involves exploiting a web application vulnerable to SQL injection.
 
+![CTF Challenge Banner](/images/ctf-banner.jpg)
+
 ## Initial Reconnaissance
 
 First, let's examine the target application:
@@ -24,6 +26,8 @@ nmap -sV -sC target.com
 gobuster dir -u http://target.com -w /usr/share/wordlists/dirb/common.txt
 ```
 
+![Port Scan Results](/images/port-scan.png)
+
 ## Vulnerability Analysis
 
 The application appears to have a login form that's vulnerable to SQL injection:
@@ -32,6 +36,8 @@ The application appears to have a login form that's vulnerable to SQL injection:
 ' OR 1=1 --
 ' UNION SELECT username,password FROM users --
 ```
+
+![Vulnerable Login Form](/images/login-form.png)
 
 ## Exploitation
 
@@ -55,6 +61,8 @@ def exploit_sql_injection(url):
 exploit_sql_injection("http://target.com")
 ```
 
+![Exploitation Success](/images/exploit-success.png)
+
 ## Flag Capture
 
 After successful exploitation, the flag was revealed:
@@ -62,6 +70,8 @@ After successful exploitation, the flag was revealed:
 ```
 flag{5ql_1nj3ct10n_15_fun}
 ```
+
+![Flag Captured](/images/flag-captured.png)
 
 ## Lessons Learned
 
@@ -75,6 +85,8 @@ flag{5ql_1nj3ct10n_15_fun}
 - Gobuster for directory enumeration
 - Python requests library for exploitation
 - Burp Suite for request manipulation
+
+![Tools Used](/images/tools-used.png)
 
 ---
 
