@@ -8,6 +8,10 @@ theme = "hugo-blog-awesome"
 enableEmoji = true
 ignoreErrors = ["additional-script-loading-error"]
 
+# GitHub Pages specific settings
+relativeURLs = false
+canonifyURLs = true
+
 # Enable code highlighting
 [markup]
   [markup.highlight]
