@@ -1,7 +1,7 @@
 title = "Hexora's CTF Writeups"
 baseURL = "https://hexora891.github.io/Writeups/"
-languageCode = "en-us"
-defaultContentLanguage = "en-us"
+languageCode = "en"
+defaultContentLanguage = "en"
 theme = "hugo-blog-awesome"
 
 # Enable emojis globally
@@ -24,30 +24,30 @@ canonifyURLs = true
     ordered = false
 
 # English language configuration
-[Languages.en-us]
+[Languages.en]
   languageName = "English"
-  languageCode = "en-us"
+  languageCode = "en"
   contentDir = "content/en"
   weight = 1
 
-  [Languages.en-us.menu]
-  [[Languages.en-us.menu.main]]
+  [Languages.en.menu]
+  [[Languages.en.menu.main]]
     pageRef = "/"
     name = 'Home'
     url = '/'
     weight = 10
-  [[Languages.en-us.menu.main]]
+  [[Languages.en.menu.main]]
     pageRef = "posts"
     name = 'Posts'
     url = '/posts/'
     weight = 20
-  [[Languages.en-us.menu.main]]
+  [[Languages.en.menu.main]]
     pageRef = "about"
     name = 'About'
     url = '/about/'
     weight = 30
 
-  [Languages.en-us.params]
+  [Languages.en.params]
     sitename = "Hexora's CTF Writeups"
     defaultColor = "auto"
     description = "A collection of CTF writeups and cybersecurity insights"
@@ -58,7 +58,7 @@ canonifyURLs = true
     dateFormat = "2 Jan 2006"
     rssFeedDescription = "summary"
 
-  [Languages.en-us.params.author]
+  [Languages.en.params.author]
     name = "Hexora"
     avatar = "avatar.jpg"
     intro = "Hexora"
