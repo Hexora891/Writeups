@@ -1,0 +1,18 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#1a202c"/>
+  <text x="400" y="250" font-family="monospace" font-size="18" fill="#68d391" text-anchor="middle">
+    Nmap Scan Results
+  </text>
+  <text x="400" y="280" font-family="monospace" font-size="14" fill="#a0aec0" text-anchor="middle">
+    22/tcp open ssh OpenSSH
+  </text>
+  <text x="400" y="300" font-family="monospace" font-size="14" fill="#a0aec0" text-anchor="middle">
+    80/tcp open http nginx
+  </text>
+  <text x="400" y="320" font-family="monospace" font-size="14" fill="#a0aec0" text-anchor="middle">
+    8080/tcp open http Jetty
+  </text>
+  <text x="400" y="350" font-family="monospace" font-size="12" fill="#718096" text-anchor="middle">
+    Replace with actual nmap output
+  </text>
+</svg>
