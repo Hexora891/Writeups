@@ -57,3 +57,9 @@ ignoreErrors = ["additional-script-loading-error"]
   [Languages.en-us.params.author]
     name = "Hexora"
     avatar = "avatar.jpg"
+
+# Theme configuration
+[params]
+  defaultColor = "auto"
+  goToTop = true
+  toc = true
