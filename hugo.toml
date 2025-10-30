@@ -1,5 +1,5 @@
 title = "Hexora's CTF Writeups"
-baseURL = "https://hexora891.github.io/Writeups/"
+baseURL = "https://writeup.hexora89.xyz/"
 languageCode = "en"
 defaultContentLanguage = "en"
 theme = "hugo-blog-awesome"
